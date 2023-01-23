@@ -1,0 +1,32 @@
+app.connector:
+  api-gateway:
+    host: scebvxy98d.execute-api.eu-west-2.amazonaws.com
+    schema: https
+    port: 443
+    context: /dev
+    operations:
+      boredFact: /bored-fact
+
+security:
+  oauth2:
+    client:
+      accessTokenUri: "https://payment-stack.auth.eu-west-2.amazoncognito.com/oauth2/token"
+      grant-type: client_credentials
+      access-token-validity-seconds: 86400000
+      client-id: 5qi4pjjg4pitcgplbc5s7vcc6
+      client-secret: u37pn7qjh3cq30vl9cgt7g3ddeb69g0qgra2aa4prfu4dvnv6o1
+
+
+cloud:
+  aws:
+    credentials:
+      useDefaultAwsCredentialsChain: true
+    region:
+      static: eu-west-2
+    stack:
+      auto: false
+    sqs:
+      shipping-queue:
+        url: http://eu-west-2.queue.localhost.localstack.cloud:4566/000000000000/shipping-queue
+      shipping-dlq:
+          url: http://eu-west-2.queue.localhost.localstack.cloud:4566/000000000000/shipping-queue-dlq

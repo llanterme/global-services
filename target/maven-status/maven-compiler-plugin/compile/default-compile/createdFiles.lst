@@ -1,0 +1,13 @@
+za/co/digitalcowboy/global/services/config/AppConfig.class
+za/co/digitalcowboy/global/services/config/WebSecurityConfig.class
+za/co/digitalcowboy/global/services/domain/BoredResponse$BoredResponseBuilder.class
+za/co/digitalcowboy/global/services/config/NetworkConfig.class
+za/co/digitalcowboy/global/services/utils/Utils.class
+za/co/digitalcowboy/global/services/domain/Version.class
+za/co/digitalcowboy/global/services/config/NetworkConfig$OAuth2ClientInterceptor.class
+za/co/digitalcowboy/global/services/GlobalServicesApplication.class
+za/co/digitalcowboy/global/services/service/impl/ExternalServiceImpl.class
+za/co/digitalcowboy/global/services/service/ExternalService.class
+za/co/digitalcowboy/global/services/exceptions/MambuResponseOAuth2ErrorHandler.class
+za/co/digitalcowboy/global/services/domain/BoredResponse.class
+za/co/digitalcowboy/global/services/controller/RestController.class

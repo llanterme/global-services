@@ -1,0 +1,16 @@
+spring:
+  profiles.active: local
+  application:
+    name: global-services
+
+server:
+  port: 9022
+logging:
+  level:
+    org:
+      apache:
+        http: INFO
+#            wire: DEBUG
+
+
+
